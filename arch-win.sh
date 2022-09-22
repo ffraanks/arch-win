@@ -18,7 +18,7 @@ subvolumes(){
   clear
   echo -e "[!] - Criando subvolumes em btrfs\n"
   sleep 2
-  mount /dev/sda2 /mnt
+  mount /dev/sda6 /mnt
   btrfs su cr /mnt/@
   btrfs su cr /mnt/@home
   btrfs su cr /mnt/@var
